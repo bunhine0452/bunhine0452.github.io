@@ -1,0 +1,9 @@
+:root { --ink:#2b2622; --soft:#7a716a; --red:#b9472f; --bg:#faf8f4; --card:#ffffff; }
+@media (prefers-color-scheme: dark) { :root { --ink:#efe9df; --soft:#b5aca3; --red:#e2795f; --bg:#1c1a18; --card:#26231f; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 -apple-system, "Apple SD Gothic Neo", "Hiragino Sans", "Noto Sans KR", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 28px; margin: 0 0 4px; } h2 { font-size: 19px; margin: 32px 0 8px; border-bottom: 2px solid var(--ink); padding-bottom: 4px; }
+small, .soft { color: var(--soft); } a { color: var(--red); }
+.card { background: var(--card); border: 2px solid var(--ink); border-radius: 10px; padding: 16px 18px; margin: 16px 0; box-shadow: 0 3px 0 var(--ink); }
+nav a { margin-right: 12px; } ul { padding-left: 20px; }
